@@ -21,7 +21,7 @@ module.exports = {
       template: './src/index.html',
       inject: 'body'
     }),
-    new Dotenv()
+    new Dontev()
   ],
   module: {
     rules: [
@@ -44,10 +44,11 @@ module.exports = {
         ]
       },
       {
-        test: /\.css$/,
+        test: /\.[sc][ac]?ss$/i,
         use: [
           'style-loader',
-          'css-loader'
+          'css-loader',
+          'sass-loader'
         ]
       }
     ]
