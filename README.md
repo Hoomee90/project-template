@@ -9,7 +9,6 @@
 * HTML
 * JS
 * Webpack
-* Jest
 * _{other stuff too}_
 
 ## Description
@@ -18,9 +17,12 @@ _{I really hope you understand what a description is.}_
 
 ## Setup/Installation Requirements
 
-* Clone repository
-* Using your favorite command line console, run `npm run build` (requires npm) in the top level directory
-* Navigate to the newly-generated scr directory and open index.html
+* Press the green <> Code button and select Download ZIP
+* Unzip file
+* Navigate to the top level of the directory
+* With npm installed, run `npm i` on the command line
+* After the depenencies are installed, run `npm run build` and open the index.html file in your browser
+* Alternatively, you can run `npm run start` and open http://localhost:8080/ in your browser to locally serve it
 * _and all_
 * _the other_
 * _instructions_
