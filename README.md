@@ -21,7 +21,7 @@ _{I really hope you understand what a description is.}_
 * Unzip file
 * Navigate to the top level of the directory
 * With npm installed, run `npm i` on the command line
-* After the depenencies are installed, run `npm run build` and open the index.html file in your browser
+* After the dependencies are installed, run `npm run build` and open the index.html file in your browser
 * Alternatively, you can run `npm run start` and open http://localhost:8080/ in your browser to locally serve it
 * _and all_
 * _the other_
